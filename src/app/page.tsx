@@ -6,7 +6,7 @@ export default async function Home() {
   return (
     <div>
       hello{" "}
-      {users.map((user, index) => {
+      {users?.map((user, index) => {
         return <div key={index}>{user}</div>;
       })}
     </div>
